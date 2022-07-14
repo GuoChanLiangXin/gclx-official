@@ -245,18 +245,6 @@ function MintSection() {
     );
   }
 
-  mintButton = (
-    <StyledMintButton
-      style={{
-        background: "#eee",
-        color: "#999",
-        cursor: "not-allowed",
-      }}
-    >
-      全部卖完了
-    </StyledMintButton>
-  );
-
   return (
     <div
       style={{

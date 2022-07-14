@@ -10,6 +10,7 @@ import PFPMaker from '../components/PFPMaker';
 import FAQ from '../components/FAQ';
 import Mint from '../components/Mint';
 import Summary from '../components/Summary';
+import Buidl from '../components/Buidl';
 
 export default function Home() {
   useEffect(() => {
@@ -60,6 +61,7 @@ export default function Home() {
       <Team />
       <Mint />
       <Summary />
+      <Buidl />
     </div>
   );
 }
